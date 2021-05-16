@@ -1,3 +1,10 @@
+/* Virtual Mouse simulation using uinput kernel module 
+* Mouse Operations Supported: 
+* 1. Mouse left/right click 
+* 2. Mouse Cursor Movement Up/Down/Left/Right
+* 3. Press and Hold Mouse left click
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
