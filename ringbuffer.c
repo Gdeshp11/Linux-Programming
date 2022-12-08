@@ -83,6 +83,7 @@ int main()
     dequeue(ringbuf);
     // dequeue(ringbuf);
     print_ringbuf(ringbuf);
+    ringbuf->exit(ringbuf);
     free(ringbuf);
     return 0;
 }
